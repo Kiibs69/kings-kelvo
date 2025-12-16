@@ -1,0 +1,394 @@
+@media screen and (min-width:320px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        background-color: white;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    ul {
+        border-bottom: black 2px solid;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    li>a {
+        text-decoration: none;
+    }
+
+    li>a:visited {
+        color: blue;
+    }
+
+    li>a:link {
+        color: blue;
+    }
+
+    .contain {}
+
+    .frist {
+        display: block;
+        flex-direction: column;
+        padding: 12px;
+        margin-top: 20px;
+    }
+
+    #add {
+        margin-top: 12px;
+        background-color: gray;
+        height: 200px;
+    }
+
+    #get {
+        background-color: blue;
+        padding: 10px;
+        border-radius: 6px;
+        color: white;
+    }
+
+    #we {
+        background-color: white;
+        padding: 10px;
+        border-radius: 6px;
+        color: blue;
+        margin-left: 12px;
+    }
+
+    .manage {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 12px;
+        margin-top: 20px;
+    }
+
+    #every {
+        margin-top: 12px;
+        background-color: gray;
+        height: 200px;
+    }
+
+    .counter {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        margin-top: 20px;
+    }
+
+    #gray {
+        margin-top: 12px;
+        background-color: gray;
+        height: 200px;
+    }
+
+    .lab {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 12px;
+        margin-top: 20px;
+    }
+
+    #img {
+        margin-top: 12px;
+        background-color: gray;
+        height: 200px;
+    }
+
+    .work {
+        background-color: blue;
+        padding: 12px;
+        margin-top: 20px;
+
+        button {
+            padding: 6px;
+            border-radius: 5px;
+            color: blue;
+            background-color: white;
+            margin-top: 12px;
+        }
+    }
+
+    #with {
+        margin-top: 12px;
+        background-color: white;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        background-color: white;
+        padding-top: 20px;
+        text-align: right;
+    }
+
+    ul {
+        border-bottom: black 2px solid;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 5px;
+        margin-bottom: 12px;
+    }
+
+    li>a {
+        text-decoration: none;
+        padding: 12px;
+    }
+
+    li>a:visited {
+        color: blue;
+    }
+
+    li>a:link {
+        color: blue;
+    }
+
+    .contain {
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .frist {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    #reduced {
+        width: 50%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    #add {
+        background-color: gray;
+        width: 50%;
+    }
+
+    .manage {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        gap: 20px;
+    }
+
+    #aspect {
+        width: 50%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    #every {
+        background-color: gray;
+        width: 50%;
+
+    }
+
+    .counter {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    #notes {
+        width: 50%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    #gray {
+        background-color: gray;
+        width: 50%;
+    }
+
+    .lab {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        gap: 20px;
+    }
+
+    #inte {
+        width: 50%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    #img {
+        background-color: gray;
+        width: 50%;
+    }
+
+    .work {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    #us {
+        width: 50%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    #with {
+        background-color: white;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+    .navbar {
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        background-color: white;
+        padding-top: 20px;
+        text-align: right;
+    }
+
+    ul {
+        border-bottom: black 2px solid;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 5px;
+        margin-bottom: 12px;
+    }
+
+    li>a {
+        text-decoration: none;
+        padding: 12px;
+    }
+
+    li>a:visited {
+        color: blue;
+    }
+
+    li>a:link {
+        color: blue;
+    }
+       .contain {
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+    }
+
+     .frist {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    #reduced {
+        width: 50%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    #add {
+        background-color: gray;
+        width: 50%;
+        height: 419px;
+    }
+     .manage{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    #aspect {
+        width: 50%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    #every {
+        background-color: gray;
+        width: 50%;
+        height: 419px;
+    }
+    #gray{
+        background-color: gray;
+        width: 50%;
+        height: 419px;
+    }
+    
+    #img{
+        background-color: gray;
+        width: 50%;
+        height: 419px;
+    }
+    .work{
+        height: 419px;
+    }
+    #with{
+        width: 50%;
+        height: 350px;   
+    }
+}
